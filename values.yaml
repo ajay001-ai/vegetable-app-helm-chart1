@@ -2,7 +2,7 @@ namespace: ajay-ns
 
 # vegetable-app deployment values
 
-replicas: 2
+replicas: 3
 deployment:
   labels:
     app: vegetable
