@@ -1,4 +1,4 @@
-namespace: namespace-ns
+namespace: ajay-ns
 
 # vegetable-app deployment values
 
@@ -10,7 +10,7 @@ deployment:
   port: 3000
 
 image:
-  repository: gowrish006/vegetable-app
+  repository: ajaykumar5292/vegetable-app
   tag: latest
 
 
