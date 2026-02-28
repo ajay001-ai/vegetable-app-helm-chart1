@@ -2,7 +2,7 @@ namespace: ajay-ns
 
 # vegetable-app deployment values
 
-replicas: 3
+replicas: 4
 deployment:
   labels:
     app: vegetable
@@ -36,7 +36,7 @@ config:
 mongo:
   name: mongo
   serviceName: mongo
-  replicas: 1
+  replicas: 2
   containerName: mongo
   image: mongo:6
   port: 27017
